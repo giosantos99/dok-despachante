@@ -1,0 +1,47 @@
+section(class="section-form row d-flex align-items-center g-0 p-4 bg-primary")
+  div(class="col-12 col-md-6 d-flex justify-content-center p-3")
+    div(class="video-wrapper w-100")
+      video(
+        src="/src/assets/video.mp4"
+        class="video-element"
+        controls
+      )
+
+  form(class="col-12 col-md-6 p-3 d-flex flex-column justify-content-center" id="form-afiliado" novalidate)
+
+    div(class="alert alert-success alert-dismissible fade show d-none mx-3 mb-3" role="alert" id="alert-sucesso")
+      i(class="bi bi-check-circle-fill me-2")
+      strong Cadastro realizado com sucesso!
+      span  Em breve entraremos em contato.
+      button(type="button" class="btn-close" id="btn-close-alert" aria-label="Close")
+
+    div(class="mb-3 input-group input-group-lg px-3 position-relative")
+      input(
+        type="text"
+        class="form-control"
+        placeholder="Informe seu nome"
+        id="nome"
+        name="nome"
+        required
+        aria-label="Informe seu nome"
+      )
+      span(class="invalid-icon d-none" id="nome-icon")
+        i(class="bi bi-exclamation-circle-fill")
+
+    div(class="mb-3 input-group input-group-lg px-3 position-relative")
+      input(
+        type="email"
+        class="form-control"
+        placeholder="Informe seu e-mail"
+        id="email"
+        name="email"
+        required
+        aria-label="Informe seu e-mail"
+      )
+      span(class="invalid-icon d-none" id="email-icon")
+        i(class="bi bi-exclamation-circle-fill")
+
+    button(
+      class="btn btn-rounded btn-secondary btn-afiliado text-white mt-2 mx-3"
+      type="submit"
+    ) Sim, quero ser um afiliado

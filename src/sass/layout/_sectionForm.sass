@@ -1,0 +1,62 @@
+.section-form
+  max-width: 100%
+  overflow-x: hidden
+  min-height: 70vh
+
+  .video-wrapper
+    width: 100%
+    max-width: 100%
+    border-radius: 16px
+    overflow: hidden
+
+    .video-element
+      width: 100%
+      height: auto
+      display: block
+      aspect-ratio: 16 / 9
+      object-fit: cover
+      border-radius: 16px
+
+  form
+    background: #CE282B
+    height: auto
+    min-height: 300px
+    border-radius: 16px
+    padding: 2rem 1rem
+
+    .alert
+      border-radius: 12px
+      font-size: 0.9rem
+      border: none
+
+    .form-control
+      border-radius: 50px !important
+      border: 1px solid transparent
+      font-size: 0.95rem
+      font-weight: 700
+
+      &::placeholder
+        color: #676767
+        font-weight: 700
+
+      &.is-invalid
+        border-color: #E12C30
+        color: #E12C30
+        padding-right: 2.5rem
+        background-image: none !important
+
+        &::placeholder
+          color: #E12C30
+
+    .position-relative
+      position: relative
+
+      .invalid-icon
+        position: absolute
+        right: 2rem
+        top: 50%
+        transform: translateY(-50%)
+        color: #E12C30
+        font-size: 1.1rem
+        pointer-events: none
+        z-index: 5

@@ -1,0 +1,35 @@
+body
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  color: $cor-texto
+  background-color: $bg-fundo-pagina
+  font-family: 'Open Sans', Arial, sans-serif
+
+img
+  display: block
+  width: 100%
+  border-radius: 6px
+
+a
+  text-decoration: none
+  color: inherit
+
+button.btn-rounded
+  border: none !important
+  border-radius: 50px !important
+  font-weight: 700 !important
+  padding: 0.75rem 2rem !important
+  font-size: 1.1rem !important
+  transition: transform 0.2s ease, background-color 0.2s ease !important
+  white-space: nowrap !important
+
+  &:hover
+    background-color: darken(#00c83c, 8%)
+    transform: translateY(-2px)
+
+.titulo-secao
+  color: #676767
+  font-weight: 700
+  font-size: 2.625rem
+  text-align: center

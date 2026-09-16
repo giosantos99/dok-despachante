@@ -1,0 +1,36 @@
+.section-afiliado
+
+  .card
+    background: $bg-card
+    gap: 10px
+    height: 100%
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+    will-change: transform
+
+    &:hover
+      transform: translateY(-5px)
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15)
+
+    .texto-descricao
+      font-weight: 400px
+      font-size: 1.875rem
+      color: $cor-texto
+
+    .container-icone
+      height: 153px
+      width: 153px
+      background: bg-primary
+      border-radius: 50%
+      padding: 1.5rem
+      flex-shrink: 0
+
+      badge-icon
+        width: 100%
+        height: 100%
+
+      i
+        font-size: 4.5rem
+        line-height: 1
+        display: inline-block
+
+

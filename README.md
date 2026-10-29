@@ -35,7 +35,7 @@ Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados em 
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/giosantos99/DokDespachante.git](https://github.com/giosantos99/DokDespachante.git)
+   git clone [https://github.com/giosantos99/dok-despachante.git](https://github.com/giosantos99/dok-despachante.git)
    ```
 
 2. Instale as dependências:
